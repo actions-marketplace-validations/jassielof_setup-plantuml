@@ -40,7 +40,7 @@ runs:
         echo "version=$JAVA_VERSION" >> "$GITHUB_OUTPUT"
 
     - name: Setup Java
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@v6
       with:
         distribution: ${{ inputs.java-distribution }}
         java-package: jre
